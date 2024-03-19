@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dark {
+  @apply bg-[#020020] text-zinc-50 transition-all ease-in duration-200;
+}
+
+.light {
+  @apply text-gray-900 transition-all duration-200 ease-out bg-white;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
