@@ -33,19 +33,19 @@ const App = () => {
 
       <Bounded>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <div className="p-10 border rounded-md md:col-span-1">
+          <div className="p-10 border border-blue-500 rounded-md md:col-span-1">
             <BarChartComponent data={categoryData} />
           </div>
-          <div className="col-span-1 p-10 border rounded-md">
+          <div className="col-span-1 p-10 border border-blue-500 rounded-md">
             <LineChartComponent data={responseTimeData} />
           </div>
-          <div className="p-10 border rounded-md md:col-span-2">
+          <div className="p-10 border border-blue-500 rounded-md md:col-span-2">
             <PieChartComponent data={userSatisfactionData} />
           </div>
-          <div className="col-span-1 p-10 border rounded-md">
+          <div className="col-span-1 p-10 border border-blue-500 rounded-md">
             <UsageStatisticsBarChartComponent data={usageStatisticsPlatformData} />
           </div>
-          <div className="col-span-1 p-10 border rounded-md">
+          <div className="col-span-1 p-10 border border-blue-500 rounded-md">
             <UsageStatisticsPieChartComponent data={usageStatisticsCountryData} />
           </div>
         </div>
