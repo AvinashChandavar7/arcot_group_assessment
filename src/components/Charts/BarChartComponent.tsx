@@ -20,7 +20,7 @@ const BarChartComponent: React.FC<BarChartProps> = ({ data }) => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="value" fill="#1434A4" />
+          <Bar dataKey="value" fill="#8884d8" />
         </BarChart>
       </ResponsiveContainer>
     </>

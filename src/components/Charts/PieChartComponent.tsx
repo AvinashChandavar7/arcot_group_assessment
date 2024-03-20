@@ -15,7 +15,7 @@ const PieChartComponent: React.FC<PieChartProps> = ({ data }) => {
       </Heading>
       <ResponsiveContainer width="100%" height={300}>
         <PieChart>
-          <Pie data={data} dataKey="count" nameKey="rating" fill="#00008B" label />
+          <Pie data={data} dataKey="count" nameKey="rating" fill="#8884d8" label />
           <Tooltip />
           <Legend />
         </PieChart>
